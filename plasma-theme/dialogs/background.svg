@@ -144,8 +144,8 @@
          style="stop-color:#121212;stop-opacity:0.90196079;" />
     </linearGradient>
     <linearGradient id="dlgGlowBase" inkscape:collect="always">
-      <stop id="dlgStop1" offset="0" style="stop-color:#ff0000;stop-opacity:0.65806454;" />
-      <stop id="dlgStop2" offset="0.44444394" style="stop-color:#ff0000;stop-opacity:0.33290306;" />
+      <stop id="dlgStop1" offset="0" style="stop-color:#ff0000;stop-opacity:1;" />
+      <stop id="dlgStop2" offset="0.5" style="stop-color:#ff0000;stop-opacity:0.5;" />
       <stop id="dlgStop3" offset="1" style="stop-color:#ff0000;stop-opacity:0;" />
     </linearGradient>
     <linearGradient id="dlgGlowRadBase" inkscape:collect="always">
@@ -471,17 +471,13 @@
     <g
        id="shadow-topright"
        transform="translate(-53.999965,-2.0000223)">
-      <path
-         id="rect2"
-         style="opacity:0.7;fill:url(#dlgGlowRadial);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6.44424;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         d="m 217.12767,302.6759 h 8 v 8 h -8 z" />
       <rect
-         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:none;stroke:none"
          id="rect8"
-         width="1"
-         height="1"
+         width="8"
+         height="8"
          x="217.12767"
-         y="310.6759" />
+         y="302.6759" />
     </g>
     <use
        x="0"
