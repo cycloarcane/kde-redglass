@@ -143,6 +143,24 @@
          offset="0"
          style="stop-color:#121212;stop-opacity:0.90196079;" />
     </linearGradient>
+    <linearGradient id="dlgGlowBase" inkscape:collect="always">
+      <stop id="dlgStop1" offset="0" style="stop-color:#ff0000;stop-opacity:0.65806454;" />
+      <stop id="dlgStop2" offset="0.44444394" style="stop-color:#ff0000;stop-opacity:0.33290306;" />
+      <stop id="dlgStop3" offset="1" style="stop-color:#ff0000;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient id="dlgGlowRadBase" inkscape:collect="always">
+      <stop style="stop-color:#ff0000;stop-opacity:0.65882355;" offset="0" id="dlgRStop1" />
+      <stop style="stop-color:#ff0000;stop-opacity:0.65882355;" offset="0.27272695" id="dlgRStop2" />
+      <stop style="stop-color:#ff0000;stop-opacity:0.33333334;" offset="0.54545462" id="dlgRStop3" />
+      <stop style="stop-color:#ff0000;stop-opacity:0;" offset="1" id="dlgRStop4" />
+    </linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#dlgGlowBase" id="dlgGlowLinear"
+       x1="183.12766" y1="299.6759" x2="183.12766" y2="291.6759"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient inkscape:collect="always" xlink:href="#dlgGlowRadBase" id="dlgGlowRadial"
+       cx="217.12767" cy="310.6759" fx="217.12767" fy="310.6759" r="5.5"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.9999949,0,0,2.0000015,-217.12623,-310.67621)" />
   </defs>
   <metadata
      id="metadata3647">
@@ -217,7 +235,7 @@
        transform="rotate(90)"
        style="opacity:0.5;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.8165"
        id="shadow-hint-bottom-margin"
-       width="1"
+       width="8"
        height="1"
        x="313.6759"
        y="-191.12769" />
@@ -226,13 +244,13 @@
        style="opacity:0.5;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.816506"
        id="shadow-hint-right-margin"
        width="1"
-       height="1"
+       height="8"
        x="312.6759"
        y="-192.12769" />
     <rect
        y="-190.12767"
        x="312.6759"
-       height="1"
+       height="8"
        width="1"
        id="shadow-hint-left-margin"
        style="opacity:0.5;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.816506"
@@ -241,7 +259,7 @@
        y="-191.12767"
        x="311.6759"
        height="1"
-       width="1"
+       width="8"
        id="shadow-hint-top-margin"
        style="opacity:0.5;fill:#008080;fill-opacity:1;stroke:none;stroke-width:0.8165"
        transform="rotate(90)" />
@@ -410,7 +428,7 @@
          x="141.12769"
          y="309.6759" />
       <rect
-         style="opacity:0.2;fill:#ededed;fill-opacity:1;stroke:none;stroke-width:0.32"
+         style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.32"
          id="rect5"
          width="22.00001"
          height="0.99999285"
@@ -422,7 +440,7 @@
        transform="translate(-15.999975,-10.999993)">
       <path
          id="rect3"
-         style="opacity:0.2;fill:#ededed;fill-opacity:1;stroke:none;stroke-width:0.32"
+         style="opacity:1;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.32"
          d="m 179.12767,319.6759 v 1 h 2 v 2 h 1 v -3 z" />
       <rect
          style="opacity:0.7;fill:#1a0000;fill-opacity:1;stroke:none;stroke-width:0.32"
@@ -436,37 +454,34 @@
        id="shadow-top"
        transform="translate(-30.999974,9.9999851)">
       <rect
-         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8.1967;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         class="ColorScheme-Background"
-         id="rect4"
-         width="3"
-         height="22"
-         x="-314.6759"
-         y="221.12767"
-         transform="rotate(-90)" />
+         style="fill:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:0.33;paint-order:markers stroke fill"
+         id="shadow_top_border"
+         width="22"
+         height="3"
+         x="172.12766"
+         y="298.6759" />
       <rect
-         style="opacity:0.7;fill:#1a0000;fill-opacity:1;stroke-width:1"
-         id="HERE"
-         width="1"
-         height="21.999998"
-         x="-311.6759"
-         y="221.12767"
-         transform="rotate(-90)" />
+         style="opacity:1;fill:url(#dlgGlowLinear);stroke-width:0.999999;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:0.33;paint-order:markers stroke fill"
+         id="shadow_top_glow"
+         width="22"
+         height="8"
+         x="172.12766"
+         y="290.6759" />
     </g>
     <g
        id="shadow-topright"
        transform="translate(-53.999965,-2.0000223)">
       <path
          id="rect2"
-         style="opacity:0.7;fill:#1a0000;stroke-width:0.999997;stroke-linecap:square;stroke-linejoin:round;paint-order:markers stroke fill;fill-opacity:1"
-         d="m 266.12767,322.6759 v 1 h 3 v 3 h 1 v -4 z" />
+         style="opacity:0.7;fill:url(#dlgGlowRadial);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:6.44424;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 217.12767,302.6759 h 8 v 8 h -8 z" />
       <rect
-         style="opacity:0.2;fill:none;stroke-width:0.999997;stroke-linecap:square;stroke-linejoin:round;paint-order:markers stroke fill"
+         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:none"
          id="rect8"
-         width="2.9999895"
-         height="3.0000072"
-         x="266.12766"
-         y="323.6759" />
+         width="1"
+         height="1"
+         x="217.12767"
+         y="310.6759" />
     </g>
     <use
        x="0"
