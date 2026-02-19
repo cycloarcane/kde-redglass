@@ -26,15 +26,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="86.88928"
-     inkscape:cx="5.6911509"
-     inkscape:cy="31.591929"
-     inkscape:current-layer="layer1"
+     inkscape:zoom="10.86116"
+     inkscape:cx="39.682685"
+     inkscape:cy="28.634142"
+     inkscape:current-layer="shadow-topright"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="1555"
-     inkscape:window-height="804"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
      inkscape:window-x="0"
      inkscape:window-y="0"
      width="148px"
@@ -44,7 +44,7 @@
      guidetolerance="25"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      fit-margin-top="10"
      fit-margin-left="10"
      fit-margin-right="10"
@@ -202,7 +202,7 @@
     <radialGradient
        inkscape:collect="always"
        xlink:href="#dlgGlowRadBase"
-       id="radialGradient4"
+       id="radialGradient7"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.9999949,0,0,2.0000015,-217.12623,-310.67621)"
        cx="217.12767"
@@ -213,7 +213,7 @@
     <radialGradient
        inkscape:collect="always"
        xlink:href="#dlgGlowRadBase"
-       id="radialGradient7"
+       id="radialGradient9"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.9999949,0,0,2.0000015,-217.12623,-310.67621)"
        cx="217.12767"
@@ -221,6 +221,27 @@
        fx="217.12767"
        fy="310.6759"
        r="5.5" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#dlgGlowBase"
+       id="linearGradient1"
+       gradientUnits="userSpaceOnUse"
+       x1="183.12766"
+       y1="299.6759"
+       x2="183.12766"
+       y2="291.6759" />
+    <radialGradient
+       id="radialGlowCornerTop"
+       gradientUnits="userSpaceOnUse"
+       cx="172.12766"
+       cy="298.6759"
+       fx="172.12766"
+       fy="298.6759"
+       r="8.55">
+      <stop offset="0" style="stop-color:#ff0000;stop-opacity:0.252;" />
+      <stop offset="0.5" style="stop-color:#ff0000;stop-opacity:0.084;" />
+      <stop offset="1" style="stop-color:#ff0000;stop-opacity:0;" />
+    </radialGradient>
   </defs>
   <metadata
      id="metadata3647">
@@ -357,13 +378,13 @@
        y="0"
        xlink:href="#top"
        id="right"
-       transform="rotate(90,152.12768,322.6759)" />
+       transform="matrix(0,1,-1.3255201,0,576.26034,170.54822)" />
     <use
        x="0"
        y="0"
        xlink:href="#top"
        id="left"
-       transform="rotate(-90,152.12768,322.6759)" />
+       transform="matrix(0,-1,1.3472214,0,-278.76877,474.80358)" />
     <use
        x="0"
        y="0"
@@ -447,7 +468,7 @@
        y="0"
        xlink:href="#shadow-top"
        id="shadow-bottom"
-       transform="matrix(1,0,0,-1,-6.6650806e-6,671.35178)" />
+       transform="matrix(1.2344294,0,0,-1,-32.156756,671.35178)" />
     <use
        x="0"
        y="0"
@@ -459,7 +480,7 @@
        y="0"
        xlink:href="#shadow-top"
        id="shadow-left"
-       transform="rotate(-90,201.1277,335.6759)" />
+       transform="matrix(0,-1.2366,1,0,-134.5482,569.2581)" />
     <rect
        style="fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8.1967;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        class="ColorScheme-Background"
@@ -497,13 +518,13 @@
     </g>
     <g
        id="topright"
-       transform="translate(-15.999975,-10.999993)">
+       transform="matrix(1.3260855,0,0,1,-74.410909,-10.999993)">
       <path
          id="rect3"
          style="opacity:1;fill:#ff0000;fill-opacity:0.45098;stroke:none;stroke-width:0.32"
          d="m 179.12767,319.6759 v 1 h 2 v 2 h 1 v -3 z" />
       <rect
-         style="opacity:1;fill:#0f1212;fill-opacity:0.8509804;stroke:none;stroke-width:0.32"
+         style="opacity:1;fill:#0f1212;fill-opacity:0.85098;stroke:none;stroke-width:0.32"
          id="rect1"
          width="2"
          height="2"
@@ -512,7 +533,7 @@
     </g>
     <g
        id="shadow-top"
-       transform="matrix(1.2720285,0,0,1,-80.804414,9.9999851)">
+       transform="matrix(1.1813244,0,0,1,-66.168282,9.9999851)">
       <rect
          style="fill:none;stroke-width:1;stroke-linecap:square;stroke-linejoin:round;stroke-opacity:0.33;paint-order:markers stroke fill"
          id="shadow_top_border"
@@ -529,22 +550,22 @@
          y="290.6759" />
     </g>
     <g
+       id="shadow-topright"
+       transform="matrix(1.1813244,0,0,1,-60.183654,-5.0076198)">
+      <rect
+         id="rect9"
+         style="opacity:1;fill:url(#radialGlowCornerTop);stroke:none"
+         width="8"
+         height="8"
+         x="172.12766"
+         y="290.6759" />
+    </g>
+    <g
        id="shadow-topleft"
        transform="matrix(-0.37851942,0,0,0.76982201,321.31473,69.510733)">
       <rect
          id="rect2"
          style="opacity:0.7;fill:url(#radialGradient2);fill-opacity:1;stroke:none"
-         width="8"
-         height="8"
-         x="217.12767"
-         y="302.6759" />
-    </g>
-    <g
-       id="shadow-bottomright"
-       transform="matrix(0.37851942,0,0,-0.76982201,80.940665,601.84104)">
-      <rect
-         id="rect4"
-         style="opacity:0.7;fill:url(#radialGradient4);fill-opacity:1;stroke:none"
          width="8"
          height="8"
          x="217.12767"
